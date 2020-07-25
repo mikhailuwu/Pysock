@@ -33,6 +33,10 @@ class sockcli(): # SOCKCLI class that contains all the functions (this can be im
         self.HOST = None
         self.PORT = None
 
+        self.ApplicationProtocols = {
+                "HTTP":[],
+                }
+
     def Help(self): # GUESS WHAT?
 
         cprint("\n")
